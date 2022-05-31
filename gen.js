@@ -13,8 +13,11 @@ for (let i = 0; i < 30000; i++) {
 }
 
 cssContainer += `
-h1 {
-  color: purple;
+.vasya {
+  color: white;
+  display: inline-block;
+  margin: 0 30px;
+  background-color: purple !important;
 }`;
 
 fs.writeFileSync("./gen.css", cssContainer);
