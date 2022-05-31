@@ -19,5 +19,8 @@ cssContainer += `
   margin: 0 30px;
   background-color: purple !important;
 }`;
-
-fs.writeFileSync("./gen.css", cssContainer);
+/**
+ * output path
+ */
+fs.writeFileSync("./block-css/gen.css", cssContainer);
+fs.writeFileSync("./only-css/gen.css", cssContainer);

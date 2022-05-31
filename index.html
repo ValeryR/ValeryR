@@ -2,24 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Test first</title>
-
-    <link rel="stylesheet" href="gen.css" />
-    <script src="main.js"></script>
+    <link rel="icon" type="image/ico" href="/favicon.ico" />
+    <title>List of experiments</title>
   </head>
-
   <body>
-    <div
-      class="vasya"
-      style="width: 100px; height: 100px; background-color: red"
-    >
-      First block
-    </div>
-    <div
-      class="vasya"
-      style="width: 100px; height: 100px; background-color: green"
-    >
-      Second block
-    </div>
+    <main>
+      <section>
+        <h2>What should show first?</h2>
+        <br />
+        <b>Hypothesis:</b><br />
+        <p>
+          According MDN
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path"
+            >critial rendering path</a
+          ><br />
+          in first we should see HTML without CSS because CSS doesnt block parse
+          and rendering,
+        </p>
+        <ul>
+          <li>
+            <a href="/experiments//performance/rendering/only-css/only-css.html"
+              >Load only one css file</a
+            >
+          </li>
+          <li>
+            <a href="/experiments//performance/rendering/block-css/block.html"
+              >Load css file before script</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
