@@ -1,5 +1,7 @@
-### Hi there 👋
+### :bow: Welcome to my Github account
 
+- :factory: I’m currently working on [seller.ozon.ru](https://seller.ozon.ru/)
+- :microscope: I’m love researching how things work
 <!--
 **ValeryR/ValeryR** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
