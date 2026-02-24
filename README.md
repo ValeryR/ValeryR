@@ -1,6 +1,6 @@
 ### :bow: Welcome to my Github account
 
-- :factory: I’m currently working on [seller.ozon.ru](https://seller.ozon.ru/)
+- :factory: I’m currently working on [VK](https://vk.ru/)
 - :microscope: I’m love researching how things work
 
 ![javascript](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
